@@ -1,0 +1,22 @@
+{
+  "name": "tiny-node-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal & clean node boiler plate with only eslint support",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joynal Abedin",
+  "license": "MIT",
+  "homepage": "https://github.com/joynal/tiny-node-boilerplate",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  }
+}
